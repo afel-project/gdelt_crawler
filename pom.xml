@@ -8,6 +8,17 @@
     <artifactId>gdelt_crawler</artifactId>
     <version>1.0</version>
 
+    <repositories>
+        <repository>
+            <id>info-mvn-repo</id>
+            <url>https://raw.github.com/bfetahu/utils/mvn-repo/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+         
     <dependencies>
         <dependency>
             <groupId>utils</groupId>
